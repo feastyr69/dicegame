@@ -49,6 +49,17 @@ h1
     margin: 0px 10px 10px 0px;
     border: 1px solid grey;
 }
+.main .numbers span.num.active{
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding: 20px 32px;
+    margin: 0px 10px 10px 0px;
+    border: 1px solid black;
+    background: black;
+    color: white;
+}
 p{
     font-family: "Boldonse", system-ui;
     text-align: center;
