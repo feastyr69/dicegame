@@ -38,7 +38,7 @@ h1
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: px 0px 0px 10px;
+    padding: 10px 0px 0px 10px;
 }
 .main .numbers span{
     font-family: "Boldonse", system-ui;
@@ -46,22 +46,8 @@ h1
     font-style: normal;
     font-size: 20px;
     padding: 20px 32px;
-    margin: 10px 10px 10px 0px;
+    margin: 0px 10px 10px 0px;
     border: 1px solid grey;
-}
-.main .numbers span.num.active{
-    transition: 0.5s;
-}
-.main .numbers span.num.active{
-    font-family: "Boldonse", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 20px;
-    padding: 20px 32px;
-    margin: 10px 10px 10px 0px;
-    border: 1px solid black;
-    background-color: black;
-    color: white;
 }
 p{
     font-family: "Boldonse", system-ui;
@@ -107,6 +93,23 @@ p{
 }
 @media (max-width:700px) {
     .main{
-        width: 70%;
+        width: 80%;
+    }
+    h1{
+        font-size: 24px;
+    }
+    p{
+        font-size: 12px;
+        margin: 0px 30px;
+    }
+    .main .numbers span{
+        font-size: 14px;
+    }
+    .main .score{
+        width: 140px;
+        font-size: 14px;
+    }
+    .main .numbers.active{
+        display: none;
     }
 }
